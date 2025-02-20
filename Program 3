@@ -1,0 +1,12 @@
+3. Conditional Expressions and Order of Evaluation
+#include <stdio.h>
+
+int main() {
+    int a = 5, b = 10, c = 15;
+    int result = (a > b) ? a : (b > c) ? b : c;
+
+    printf("Largest number: %d\n", result);
+    
+    return 0;
+}
+  
