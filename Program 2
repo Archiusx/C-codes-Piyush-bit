@@ -1,0 +1,18 @@
+2. Arithmetic, Relational, and Logical Operations
+#include <stdio.h>
+
+int main() {
+    int a = 5, b = 10;
+    
+    printf("Addition: %d\n", a + b);
+    printf("Subtraction: %d\n", a - b);
+    printf("Multiplication: %d\n", a * b);
+    printf("Division: %d\n", a / b);
+    
+    printf("Greater than: %d\n", a > b);
+    printf("Equal to: %d\n", a == b);
+
+    printf("Logical AND: %d\n", (a > 0) && (b > 0));
+    printf("Logical OR: %d\n", (a > 0) || (b < 0));
+
+    return 0;
