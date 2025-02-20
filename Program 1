@@ -1,0 +1,14 @@
+Declare and Initialize Variables
+#include <stdio.h>
+
+int main() {
+    int intVar = 10;
+    float floatVar = 10.5;
+    char charVar = 'A';
+
+    printf("Integer: %d\n", intVar);
+    printf("Float: %.2f\n", floatVar);
+    printf("Character: %c\n", charVar);
+
+    return 0;
+}
